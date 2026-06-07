@@ -5,11 +5,11 @@ Cherry Chats is a new messenger with the ability to create and use local chats b
 
 ## 🔴Description
 
-I'll write it, but later.
+I'll write it, but potom.
 
 ## 🔴Documentation
 
-This is aslo later.
+This is aslo potom.
 
 ## 🔴Built With
 Programm languages: .Net C# (Backend) + JS (Frontend)
@@ -20,7 +20,7 @@ Infrastrucrure: Git Hub, Docker + Kubernets
 
 Cookies (high chanses to be used): Redis (in Docker)
 
-Development tools are used (particially assumed): ̶ ̶c̶h̶a̶t̶ ̶g̶p̶t̶,̶ ̶d̶e̶e̶p̶s̶e̶e̶k̶, VS Code, Visual Studio (for .Net), DBeaver, GitHub Desktop, Docker Desktop, Expo
+Development tools are used (particially assumed): ̶~chat gpt~, ~deepseek~, VS Code, Visual Studio (for .Net), DBeaver, GitHub Desktop, Docker Desktop, Expo
 
 ## 🔴Team
 
@@ -49,7 +49,7 @@ Cherry Chats - это новый мессенджер с возможность�
 
 Печеньки (скорее всего будут использованы): Redis (в Docker)
 
-Использованные средства разработки (частично предполагаемые): ̶ ̶c̶h̶a̶t̶ ̶g̶p̶t̶,̶ ̶d̶e̶e̶p̶s̶e̶e̶k̶, VS Code, Visual Studio (для .NET), DBeaver, GitHub Desktop, Docker Desktop, Expo
+Использованные средства разработки (частично предполагаемые): ~chat gpt~, ~deepseek~, VS Code, Visual Studio (для .NET), DBeaver, GitHub Desktop, Docker Desktop, Expo
 
 ## 🔴Комманда
 
