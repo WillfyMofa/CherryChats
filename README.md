@@ -18,7 +18,7 @@ This is aslo potom
 
 Кэш (скорее всего понадобится): Redis (в Docker)
 
-Используемые средства разработки (частично предполагаемые): ̶ ̶c̶h̶a̶t̶ ̶g̶p̶t̶,̶ ̶d̶e̶e̶p̶s̶e̶e̶k̶, VS Code, Visual Studio (for .Net), DBeaver, GitHub Desktop, Docker Desktop, Expo
+Используемые средства разработки (частично предполагаемые): ~chat gpt~, ~deepseek~, VS Code, Visual Studio (for .Net), DBeaver, GitHub Desktop, Docker Desktop, Expo
 
 ## 🔴Team
 
