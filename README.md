@@ -1,7 +1,7 @@
 # 🍒CherryChats
 Cherry Chats is a new messenger with the ability to create and use local chats based on a wireless connection without the internet
 
-### Русским [сюды](https://github.com/WillfyMofa/CherryChats#team)
+### Русским [сюды](https://github.com/WillfyMofa/CherryChats#-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-%D1%8F%D0%B7%D1%8B%D0%BA-%D1%82%D1%83%D1%82%D0%B0)
 
 ## 🔴Description
 
@@ -25,6 +25,7 @@ Development tools are used (particially assumed): ̶ ̶c̶h̶a̶t̶ ̶g̶p̶t̶,
 ## 🔴Team
 
 WillfyMofa: Just me...
+
 MrKimler: She's lying.
 
 ## 🔴 Русский язык тута
@@ -53,4 +54,5 @@ Cherry Chats - это новый мессенджер с возможность�
 ## 🔴Комманда
 
 WillfyMofa: Только я...
+
 MrKimler: Она врёт.
