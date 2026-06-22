@@ -1,11 +1,19 @@
 {
   "name": "testexpoapp",
   "version": "1.0.0",
+  "codegenConfig": {
+    "name": "NativeCherrySpecs",
+    "type": "modules",
+    "jsSrcsDir": "specs",
+    "android": {
+      "javaPackageName": "com.testexpoapp.specs"
+    }
+  },
   "main": "index.js",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
@@ -15,15 +23,17 @@
     "@react-navigation/native": "^7.2.2",
     "@react-navigation/native-stack": "^7.14.11",
     "axios": "^1.15.2",
-    "expo": "~54.0.33",
-    "expo-font": "^55.0.6",
-    "expo-location": "^55.1.8",
-    "expo-splash-screen": "~31.0.13",
-    "expo-status-bar": "~3.0.9",
-    "react": "19.1.0",
-    "react-native": "0.81.5",
-    "react-native-safe-area-context": "~5.6.0",
-    "react-native-screens": "~4.16.0"
+    "expo": "^56.0.12",
+    "expo-font": "~56.0.7",
+    "expo-location": "~56.0.18",
+    "expo-splash-screen": "~56.0.10",
+    "expo-status-bar": "~56.0.4",
+    "expo-system-ui": "~56.0.5",
+    "flow": "^0.2.3",
+    "react": "19.2.3",
+    "react-native": "0.85.3",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-screens": "4.25.2"
   },
   "private": true
 }
