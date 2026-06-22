@@ -8,14 +8,14 @@
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.CherryChats.TestExpoApp"
+      "bundleIdentifier": "com.mrkimler.TestExpoApp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.CherryChats.TestExpoApp"
+      "package": "com.mrkimler.TestExpoApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"

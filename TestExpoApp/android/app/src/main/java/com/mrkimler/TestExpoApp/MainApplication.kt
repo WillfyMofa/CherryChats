@@ -1,4 +1,4 @@
-package com.CherryChats.TestExpoApp
+package com.mrkimler.TestExpoApp
 
 import android.app.Application
 import android.content.res.Configuration

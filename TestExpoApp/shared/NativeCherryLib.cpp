@@ -1,4 +1,4 @@
-#include "NativeCherryLib.hpp"
+#include "NativeCherryLib.h"
 #include "JniControl.hpp"
 #include <boost/filesystem/fstream.hpp>
 #include <exception>

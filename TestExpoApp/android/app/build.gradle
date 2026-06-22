@@ -87,9 +87,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.CherryChats.TestExpoApp'
+    namespace 'com.mrkimler.TestExpoApp'
     defaultConfig {
-        applicationId 'com.CherryChats.TestExpoApp'
+        applicationId 'com.mrkimler.TestExpoApp'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -121,11 +121,13 @@ android {
             crunchPngs enablePngCrunchInRelease.toBoolean()
         }
     }
+
     externalNativeBuild {
         cmake {
             path "src/main/jni/CMakeLists.txt"
         }
     }
+
     packagingOptions {
         jniLibs {
             def enableLegacyPackaging = findProperty('expo.useLegacyPackaging') ?: 'false'

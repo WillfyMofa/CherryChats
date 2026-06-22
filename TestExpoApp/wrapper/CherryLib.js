@@ -1,4 +1,4 @@
-import { NativeCherryLib } from "./NativeCherryLib";
+import { NativeCherryLib } from "../specs/NativeCherryLib";
 
 /*
  * returns uuid of app

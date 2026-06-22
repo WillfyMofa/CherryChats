@@ -2,7 +2,7 @@
 #define _JNI_CONTROL_INCLUDE_H
 
 #include <stdexcept>
-#include "NativeCherryLib.hpp"
+#include "NativeCherryLib.h"
 #include <jni.h>
 
 class jni_control

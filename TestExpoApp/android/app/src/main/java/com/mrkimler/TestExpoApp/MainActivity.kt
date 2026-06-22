@@ -1,4 +1,4 @@
-package com.CherryChats.TestExpoApp
+package com.mrkimler.TestExpoApp
 import expo.modules.splashscreen.SplashScreenManager
 
 import android.os.Build

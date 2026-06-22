@@ -1,4 +1,4 @@
-#include "NativeCherryLib.hpp"
+#include "NativeCherryLib.h"
 
 namespace facebook::react {
 

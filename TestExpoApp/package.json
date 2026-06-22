@@ -6,7 +6,7 @@
     "type": "modules",
     "jsSrcsDir": "specs",
     "android": {
-      "javaPackageName": "com.testexpoapp.specs"
+      "javaPackageName": "com.TestExpoApp.specs"
     }
   },
   "main": "index.js",
@@ -24,6 +24,7 @@
     "@react-navigation/native-stack": "^7.14.11",
     "axios": "^1.15.2",
     "expo": "^56.0.12",
+    "expo-constants": "^56.0.18",
     "expo-font": "~56.0.7",
     "expo-location": "~56.0.18",
     "expo-splash-screen": "~56.0.10",

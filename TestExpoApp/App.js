@@ -1,21 +1,21 @@
-import React, { useState, useEffect } from 'react';
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import * as Font from 'expo-font';
-import { Ionicons } from '@expo/vector-icons';
-import RegisterScreen from './screens/RegisterScreen';
-import LoginScreen from './screens/LoginScreen';
-import ProfileScreen from './screens/ProfileScreen';
-import ChatsScreen from './screens/ChatsScreen';
-import ArchiveScreen from './screens/ArchiveScreen';
-import ModeScreen from './screens/ModeScreen';
-import SettingsScreen from './screens/SettingsScreen';
-import colors from './styles/colors';
-import ChatDetailScreen from './screens/ChatDetailScreen';
-import ChatInfoScreen from './screens/ChatInfoScreen';
-import CreateChatScreen from './screens/CreateChatScreen';
-import OtherUserProfileScreen from './screens/OtherUserProfileScreen';
+import React, { useState, useEffect } from "react";
+import { NavigationContainer } from "@react-navigation/native";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+import * as Font from "expo-font";
+import { Ionicons } from "@expo/vector-icons";
+import RegisterScreen from "./screens/RegisterScreen";
+import LoginScreen from "./screens/LoginScreen";
+import ProfileScreen from "./screens/ProfileScreen";
+import ChatsScreen from "./screens/ChatsScreen";
+import ArchiveScreen from "./screens/ArchiveScreen";
+import ModeScreen from "./screens/ModeScreen";
+import SettingsScreen from "./screens/SettingsScreen";
+import colors from "./styles/colors";
+import ChatDetailScreen from "./screens/ChatDetailScreen";
+import ChatInfoScreen from "./screens/ChatInfoScreen";
+import CreateChatScreen from "./screens/CreateChatScreen";
+import OtherUserProfileScreen from "./screens/OtherUserProfileScreen";
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -26,12 +26,12 @@ function MainTabs() {
       screenOptions={({ route }) => ({
         tabBarIcon: ({ focused, color, size }) => {
           let iconName;
-          if (route.name === 'Chats') iconName = 'chatbubbles';
-          else if (route.name === 'Archive') iconName = 'archive';
-          else if (route.name === 'Mode') iconName = 'radio';
-          else if (route.name === 'Settings') iconName = 'settings';
-          else if (route.name === 'Profile') iconName = 'person';
-          
+          if (route.name === "Chats") iconName = "chatbubbles";
+          else if (route.name === "Archive") iconName = "archive";
+          else if (route.name === "Mode") iconName = "radio";
+          else if (route.name === "Settings") iconName = "settings";
+          else if (route.name === "Profile") iconName = "person";
+
           return <Ionicons name={iconName} size={size} color={color} />;
         },
         tabBarActiveTintColor: colors.primary,
@@ -50,7 +50,7 @@ function MainTabs() {
         },
         tabBarLabelStyle: {
           fontSize: 11,
-          fontFamily: 'ShantellSans-Regular',
+          fontFamily: "ShantellSans-Regular",
           marginTop: 2, // от иконки
         },
         headerShown: false,
@@ -72,12 +72,12 @@ export default function App() {
     async function loadFonts() {
       try {
         await Font.loadAsync({
-          'ShantellSans-Regular': require('./assets/fonts/ShantellSans-Regular.ttf'),
-          'ShantellSans-Italic': require('./assets/fonts/ShantellSans-Italic.ttf'),
+          "ShantellSans-Regular": require("./assets/fonts/ShantellSans-Regular.ttf"),
+          "ShantellSans-Italic": require("./assets/fonts/ShantellSans-Italic.ttf"),
         });
         setFontsLoaded(true);
       } catch (error) {
-        console.warn('Ошибка загрузки шрифтов:', error);
+        console.warn("Ошибка загрузки шрифтов:", error);
         setFontsLoaded(true);
       }
     }
@@ -97,7 +97,10 @@ export default function App() {
         <Stack.Screen name="ChatDetail" component={ChatDetailScreen} />
         <Stack.Screen name="ChatInfo" component={ChatInfoScreen} />
         <Stack.Screen name="CreateChat" component={CreateChatScreen} />
-        <Stack.Screen name="OtherUserProfile" component={OtherUserProfileScreen} />
+        <Stack.Screen
+          name="OtherUserProfile"
+          component={OtherUserProfileScreen}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
