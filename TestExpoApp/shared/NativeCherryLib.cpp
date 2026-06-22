@@ -88,7 +88,7 @@ std::string NativeCherryLib::getUuid(jsi::Runtime &rt)
         return "ERROR";
     }
 
-    string_path.append("cherry_uuid.txt");
+    string_path.append("/cherry_uuid.txt");
 
     path_to_file = string_path;
     fstr.exceptions(std::fstream::badbit | std::fstream::failbit);
