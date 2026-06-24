@@ -71,12 +71,14 @@ std::string NativeCherryLib::getUuid(jsi::Runtime &rt)
         jcontrol.uninit_jnienv();
         return ex.what();
     }
-
-    if(absolute_path == nullptr)
-    {
-        return "I hate warnings to errors...";
-    }
-
+/*
+ * if error occured - uncomment this:
+ *
+ * if(absolute_path == nullptr)
+ * {
+ *      return "I hate warnings to errors...";
+ * }
+*/
     try
     {
         string_path = fenv->GetStringUTFChars(absolute_path, nullptr);
